@@ -336,6 +336,7 @@ h3{
     .hero-content{
         width: 95%;
         padding-right: 50px;
+        margin-right: 20px;
     }
     .hero-content h3{
         font-size: 23px;
