@@ -104,7 +104,7 @@ nav .fa-solid{
 
 @media(max-width: 700px){
     .text-box h1{
-        font-size: 20px;
+        font-size: 30px;
     }
     .text-box p{
         font-size: 14px;
@@ -317,6 +317,35 @@ h3{
     width: 100%;
     height: auto;
     border-radius: 10px;
+}
+@media screen and (max-width: 700px) {
+    .abcontainer{
+        flex-direction: column;
+        width: 100%;
+        margin: 0px;
+        padding: 0px 40px;
+    }
+    .heor{
+        margin: 0px;
+    }
+    .hero-content{
+        width: 85%;
+        margin: 35px 0px;
+        padding-right: 50px;
+    }
+    .hero-content h3{
+        font-size: 23px;
+    }
+    .hero-content button{
+        font-size: 16px;
+        padding: 8px 16px;
+    }
+    .about-image{
+        width: 100%;
+    }
+    .about-image img{
+        width: 90%;
+    }
 }
 
 /*-----testimonial-----*/
