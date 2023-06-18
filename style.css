@@ -257,6 +257,27 @@ h3{
     font-weight: 600;
     color: #152238;
 }
+@media(max-width: 700px){
+.sliderh1 h1{
+    font-size: 22px;
+}
+.logos-slide img{
+    height: 50px;
+    margin: 0 30px;
+}
+.sliderlogos::before,
+.sliderlogos::after{
+    position: absolute;
+    top: 0;
+    width: 50px;
+    height: 100%;
+    content: '';
+    z-index: 2;
+}
+.sliderlogos{
+    padding: 40px 0;
+}
+}
 
 /*-----about-----*/
 
