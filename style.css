@@ -463,7 +463,37 @@ h3{
         margin-top: 0px;
     }
 }
-
+@media screen and (max-width: 700px){
+    .testimonial-text{
+        background: #fff;
+        width: 100%;
+        color: #666;
+        font-size: 13px;
+        height: 400px;
+        position: relative;
+        box-shadow: 0 15px 20px rgba(0, 0, 0, 0.2);
+    }
+    .user-text{
+        width: 80%;
+        text-align: center;
+        line-height: 25px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        display: none;
+    }
+    .user-pic{
+        width: 45px;
+        padding: 3px;
+        border-radius: 50%;
+        margin: 5px;
+        cursor: pointer;
+    }
+    .user-pic.active-pic{
+        width: 60px;
+    }
+}
 /*-----footer-----*/
 
 footer{
